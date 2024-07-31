@@ -1,13 +1,205 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+
+
+
+
+
+.fontsize12px {
+	font-size: 12px !important;
+}
+
+.fontsize14px {
+	font-size: 14px !important;
+}
+
+.fontsize16px {
+	font-size: 16px !important;
+}
+
+.fontsize20px {
+	font-size: 20px !important;
+}
+
+.fontsize22px {
+	font-size: 22px !important;
+}
+
+.fontsize28px {
+	font-size: 28px !important;
+}
+
+.fontsize30px {
+	font-size: 30px !important;
+}
+
+.fontsize32px {
+	font-size: 32px !important;
+}
+
+.fontsize40px {
+	font-size: 40px !important;
+}
+
+.fontsize53px {
+	font-size: 53px !important;
+}
+
+.fontsize64px h2 {
+	font-size: 64px !important;
+	/*
+	line-height: 80px */
+}
+
+.fontsize84px {
+	font-size: 84px !important;
+	line-height: 1em
+}
+
+.fontsize120px {
+	font-size: 120px !important;
+	line-height: 120px
+}
+
+@media (max-width: 1200px) {
+
+	.fontsize18px {
+		font-size: 18px !important;
+	}
+
+	.fontsize20px {
+		font-size: 20px !important;
+	}
+
+	.fontsize28px {
+		font-size: 20px !important;
+	}
+
+	.fontsize30px {
+		font-size: 25px !important;
+	}
+
+	.fontsize32px {
+		font-size: 27px !important;
+	}
+
+	.fontsize40px {
+		font-size: 30px !important;
+	}
+
+	.fontsize53px {
+		font-size: 38px !important;
+	}
+
+	.fontsize64px h2 {
+		font-size: 47px !important;
+	}
+
+	.fontsize84px {
+		font-size: 53px !important;
+	}
+
+	.fontsize120px {
+		font-size: 60px !important;
+		line-height: 60px
+	}
+}
+
+@media (max-width: 768px) {
+
+	.fontsize18px {
+		font-size: 16px !important;
+	}
+
+	.fontsize20px {
+		font-size: 18px !important;
+	}
+
+	.fontsize28px {
+		font-size: 20px !important;
+	}
+
+	.fontsize30px {
+		font-size: 23px !important;
+	}
+
+	.fontsize32px {
+		font-size: 25px !important;
+	}
+
+	.fontsize40px {
+		font-size: 27px !important;
+	}
+
+	.fontsize53px {
+		font-size: 32px !important;
+	}
+
+	.fontsize64px h2 {
+		font-size: 37px !important;
+	}
+
+	.fontsize84px {
+		font-size: 43px !important;
+	}
+
+	.fontsize120px {
+		font-size: 60px !important;
+		line-height: 50px
+	}
+}
+
+
+.bgNKred {
+	background-color: #B41F1D !important;
+}
+
+.bgNKgrey {
+	background-color: #7D7D7D !important;
+}
+
+
+.hero button {
+	white-space: unset;
+	line-height: 22px;
+}
+
+
+
+
+.formItemGen .nav-item .nav-link {
+	color: #000 !important;
+	font-weight: 600;
+	font-size: 19px;
+}
+
+.formItemGen label {
+	font-size: 16px !important;
+}
+
+.formItemGen .nav-item .active {
+	color: #B41F1D !important;
+	background-color: #F8F9FA !important;
+}
+
+@media (max-width: 768px) {
+	.formItemGen .nav-item .nav-link { 
+		font-size: 14px;
+	}
+
+	.formItemGen label {
+		font-size: 14px !important;
+	}
 }
